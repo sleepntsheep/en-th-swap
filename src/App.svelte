@@ -309,7 +309,7 @@ const thaiengswap = () => {
   }  
 
   h2 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   
   .line {
