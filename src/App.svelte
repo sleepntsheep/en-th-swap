@@ -1,5 +1,5 @@
 <script>
-
+import Kofi from "./kofi.svelte";
 let thaiengInput;
 let engthaiInput;
 let thaiengResult = '';
@@ -234,6 +234,7 @@ const thaiengswap = () => {
 </script>
 
 <style>
+
   @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
   :root {
@@ -287,7 +288,7 @@ const thaiengswap = () => {
   }
 
   .line {
-    border-right: thick solid #44475a	;
+    border-right: thick solid #ff5555		;
   }
 
   @media screen and (max-width: 600px) {
@@ -297,27 +298,37 @@ const thaiengswap = () => {
   }
 
   input {
-    font-size: 2rem;
+    font-size: 1rem;
     width: 100%;
     max-width: 100%;
+    text-align:center;
   }
 
   h1 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }  
+
+  h2 {
+    font-size: 2rem;
+  }
   
   .line {
-    border-bottom: thick solid #44475a	;
+    border-bottom: thick solid #ff5555		;
   }
 
   .row {
     display: block;
+  }
+  
+  button {
+    padding: 10px;
   }
 
   }
 
 </style>
 
+<Kofi name="r4yish" />
 
 <center>
   <h1>Thai-Eng Swap</h1>
