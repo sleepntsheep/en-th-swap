@@ -328,7 +328,7 @@ const thaiengswap = () => {
 
 </style>
 
-<Kofi name="sleepysheeep" />
+<Kofi name="sleepntsheep" />
 
 <center>
   <h1>Thai-Eng Swap</h1>
